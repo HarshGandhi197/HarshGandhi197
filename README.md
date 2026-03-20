@@ -26,10 +26,43 @@ const developer = {
 > **Web Fundamentals:** JavaScript, HTML5, CSS3  
 > **Analytics & Admin:** Salesforce Administration, Reports & Dashboards  
 
-## 🏆 `print(certifications)`
+## 🔐 `sudo ./verify_credentials.sh --resolve-nodes`
 
-- ☁️ **Salesforce Data Cloud Consultant**  
-- 🧩 **Salesforce Associate**  
+<details open>
+<summary><b><code>[200 OK] 3 Secure Tokens Fetched. Click to toggle visibility.</code></b></summary>
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <br/>
+        <!-- ❗ Drop your Data Cloud image between the quotes below -->
+        <img src="https://images.credly.com/size/110x110/images/6c65d63f-6acc-424a-81da-cb65a9db41b9/salesforce-certified-data-cloud-consultant.png" alt="Data Cloud Consultant" height="120" />
+        <br/><br/>
+        <kbd>☁️ Data Cloud Consultant</kbd><br/><br/>
+        <img src="https://img.shields.io/badge/Node-Active-00FF00?style=flat-square&logo=salesforce" alt="Active Status" />
+      </td>
+      <td align="center" width="33%">
+        <br/>
+        <!-- ❗ Drop your Agentforce image between the quotes below -->
+        <img src="https://images.credly.com/size/110x110/images/2fcbc3cf-38af-4db6-9430-80a5202edabc/salesforce-certified-agentforce-specialist.png" alt="Agentforce Specialist" height="120" />
+        <br/><br/>
+        <kbd>🤖 Agentforce Specialist</kbd><br/><br/>
+        <img src="https://img.shields.io/badge/Node-Active-00FF00?style=flat-square&logo=salesforce" alt="Active Status" />
+      </td>
+      <td align="center" width="33%">
+        <br/>
+        <!-- ❗ Drop your AI Associate image between the quotes below -->
+        <img src="https://images.credly.com/size/110x110/images/737cf276-88b0-466d-893a-8671ab1137c4/salesforce-certified-ai-associate.png" alt="AI Associate" height="120" />
+        <br/><br/>
+        <kbd>🧠 AI Associate</kbd><br/><br/>
+        <img src="https://img.shields.io/badge/Node-Active-00FF00?style=flat-square&logo=salesforce" alt="Active Status" />
+      </td>
+    </tr>
+  </table>
+</div>
+</details>
 
 ## 🛠️ `cat ./config/tech_stack.json | jq '.capabilities'`
 
