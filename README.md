@@ -54,15 +54,30 @@ const developer = {
   ]
 }
 ```
+## 🛠️ `./load_dependencies.sh`
 
-## 🛠️ `cat ./config/tech_stack.json | jq '.capabilities'`
+<p>
+  <code>[ ##........ ] 20%</code> <b>Initializing sfdc_core modules...</b> <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;↳ <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white" align="center"/>
+</p>
 
-| Module | Loaded Dependencies | Status |
-| ------ | ------------------- | :----: |
-| **`SFDC_Core`** | <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white" /> | `[ OK ]` |
-| **`SFDC_Dev`** | <img src="https://img.shields.io/badge/Apex-172646?style=flat-square&logo=salesforce&logoColor=white" /> <img src="https://img.shields.io/badge/LWC-005FB2?style=flat-square&logo=salesforce&logoColor=white" /> | `[ OK ]` |
-| **`SFDC_Comm`** | <img src="https://img.shields.io/badge/Experience_Builder-FF5733?style=flat-square&logo=salesforce&logoColor=white" /> | `[ OK ]` |
-| **`Web_Stack`** | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> | `[ OK ]` |
+<p>
+  <code>[ #####..... ] 50%</code> <b>Compiling sfdc_dev pipelines...</b> <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;↳ <img src="https://img.shields.io/badge/Apex-172646?style=flat-square&logo=salesforce&logoColor=white" align="center"/> <img src="https://img.shields.io/badge/LWC-005FB2?style=flat-square&logo=salesforce&logoColor=white" align="center"/>
+</p>
+
+<p>
+  <code>[ ########.. ] 80%</code> <b>Resolving sfdc_comm nodes...</b> <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;↳ <img src="https://img.shields.io/badge/Experience_Builder-FF5733?style=flat-square&logo=salesforce&logoColor=white" align="center"/>
+</p>
+
+<p>
+  <code>[ ########## ] 100%</code> <b>Serving web_stack payload...</b> <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;↳ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" align="center"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" align="center"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" align="center"/>
+</p>
+
+<br>
+<code>> Done. All packages mounted successfully.</code>
 
 ## 📡 `netstat -a | grep "ESTABLISHED"`
 
