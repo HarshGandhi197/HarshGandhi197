@@ -31,22 +31,21 @@ const developer = {
 - ☁️ **Salesforce Data Cloud Consultant**  
 - 🧩 **Salesforce Associate**  
 
-## 🛠️ `tech_stack.json`
+## 🛠️ `cat ./config/tech_stack.json | jq '.capabilities'`
 
-<div align="left">
-  <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apex-172646?style=for-the-badge&logo=salesforce&logoColor=white" />
-  <img src="https://img.shields.io/badge/LWC-005FB2?style=for-the-badge&logo=salesforce&logoColor=white" />
-  <img src="https://img.shields.io/badge/Experience_Builder-FF5733?style=for-the-badge&logo=salesforce&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-</div>
+| Module | Loaded Dependencies | Status |
+| ------ | ------------------- | :----: |
+| **`SFDC_Core`** | <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white" /> | `[ OK ]` |
+| **`SFDC_Dev`** | <img src="https://img.shields.io/badge/Apex-172646?style=flat-square&logo=salesforce&logoColor=white" /> <img src="https://img.shields.io/badge/LWC-005FB2?style=flat-square&logo=salesforce&logoColor=white" /> | `[ OK ]` |
+| **`SFDC_Comm`** | <img src="https://img.shields.io/badge/Experience_Builder-FF5733?style=flat-square&logo=salesforce&logoColor=white" /> | `[ OK ]` |
+| **`Web_Stack`** | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> | `[ OK ]` |
 
-## 📡 `establish_connection()`
+## 📡 `netstat -a | grep "ESTABLISHED"`
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-gandhi-152b68226/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gandhiharsh1907@gmail.com)
+| Protocol | Remote Address | State | Action |
+| :------- | :------------- | :---: | :----- |
+| `tcp/443` | `api.linkedin.com/in/harsh-gandhi` | **`ESTABLISHED`** | [![LinkedIn](https://img.shields.io/badge/ssh:-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-gandhi-152b68226/) |
+| `smtp/25` | `gandhiharsh1907@gmail.com` | **`LISTENING`** | [![Email](https://img.shields.io/badge/ping:-Send_Packet-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gandhiharsh1907@gmail.com) |
 
 ---
 <div align="center">
